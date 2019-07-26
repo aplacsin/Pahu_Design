@@ -1,0 +1,687 @@
+@media (max-width: 368px) {
+
+    
+
+
+    /* ============================ section from our blog =============================== */
+
+    div.text-title-from-our-blog {
+        font-size: 16px;
+    }
+
+    div.text-description-from-our-blog {
+        font-size: 13px;
+    }
+
+
+    /* ============================ footer =============================== */
+
+
+    div.text-title-first-footer {
+        font-size: 23px;
+    }
+
+    div.text-title-second-footer {
+        font-size: 27px;
+    }
+}
+
+
+@media (max-width: 445px) {
+
+    /* =========================== header ===================== */
+    div.wrapper-header-logo,
+    div.navbar,
+    div.wrapper-header-icons {
+        display: flex;
+        align-items: unset;
+        height: 100%;
+    }
+
+    div.wrapper-header-logo,
+    div.wrapper-header-icons {
+        margin-top: 15px;
+    }
+
+    div.wrapper-header-logo {
+        margin-bottom: 20px;
+    }
+
+    ul.navbar-nav {
+        padding-left: 0px;
+    }
+
+    ul.navbar-nav li a {
+        position: inherit;
+    }
+
+    div.wrapper-header-icons {
+        padding-left: 0px;
+    }
+
+
+
+
+    /* ============================ title text =============================== */
+
+    div.title-yellow {
+        font-size: 25px;
+    }
+
+    div.title-black {
+        font-size: 25px;
+    }
+
+
+    /* ============================ section carousel-welcome-pahu =============================== */
+
+    div.carousel-caption-first::before {
+        border-top: 1px solid #ffce76;
+    }
+
+
+    /* ============================ section why choose us =============================== */
+
+    div.wrapper-armchar-why-choose-us img {
+        margin-bottom: 70px;
+        height: 90%;
+        width: 90%;
+    }
+
+    .wrapper-text-why-choose-us-left {
+        padding-right: 25px;
+    }
+
+    div.title-text-why-choose-us {
+        line-height: 20px;
+    }
+
+
+    /* ============================ section view-deatail =============================== */
+
+    div.wrapper-text-patio {
+        padding-left: 15px;
+    }
+
+    div.wrapper-text-design-by-jarnet-park-trend {
+        padding-top: 51px;
+        padding-left: 15px;
+    }
+
+    div.wrapper-text-ceramics-wm-munoz {
+        padding-left: 15px;
+    }
+
+    div.wrapper-image-apple {
+        justify-content: flex-end;
+    }
+
+    div.title-text-patio {
+        font-size: 25px;
+    }
+
+    div.description-text-patio a {
+        font-size: 10px;
+    }
+
+    div.title-text-design-by-jarnet-park-trend {
+        font-size: 25px;
+    }
+
+    div.description-text-jarnet-park a {
+        font-size: 10px;
+    }
+
+    div.title-text-ceramic-wm-munoz {
+        font-size: 25px;
+    }
+
+    div.description-text-ceramic-wm-munoz a {
+        font-size: 10px;
+    }
+
+
+    /* ============================ section our designer =============================== */
+
+    .wrapper-designer {
+        padding-bottom: 40px;
+    }
+
+    div.text-name {
+        font-size: 6.7vw;
+    }
+
+
+    /* ============================ section from our blog =============================== */
+
+    div.wrapper-possition-from-our-blog {
+        padding-bottom: 50px;
+    }
+}
+
+
+@media (min-width: 436px) and (max-width: 575px) {
+
+    /* ========================== header ======================== */
+
+
+    div.wrapper-header-logo,
+    div.navbar,
+    div.wrapper-header-icons {
+        display: flex;
+        align-items: unset;
+        height: 100%;
+    }
+
+    div.wrapper-header-logo,
+    div.wrapper-header-icons {
+        margin-top: 15px;
+    }
+
+    div.wrapper-header-logo {
+        margin-bottom: 20px;
+    }
+
+    ul.navbar-nav {
+        padding-left: 0px;
+    }
+
+    ul.navbar-nav li a {
+        position: inherit;
+    }
+
+    div.wrapper-header-icons {
+        padding-left: 0px;
+    }
+
+
+    /* ============================ section why choose us =============================== */
+
+    div.wrapper-armchar-why-choose-us img {
+        margin-bottom: 70px;
+    }
+
+    .wrapper-text-why-choose-us-left {
+        padding-right: 25px;
+    }
+
+    div.title-text-why-choose-us {
+        line-height: 20px;
+    }
+
+
+    /* ============================ section view-deatail =============================== */
+
+    div.wrapper-text-patio {
+        padding-left: 15px;
+    }
+
+    div.wrapper-text-design-by-jarnet-park-trend {
+        padding-top: 51px;
+        padding-left: 15px;
+    }
+
+    div.wrapper-text-ceramics-wm-munoz {
+        padding-left: 15px;
+    }
+
+    div.wrapper-image-apple {
+        justify-content: flex-end;
+    }
+
+
+    /* ============================ section our designer =============================== */
+
+    .wrapper-designer {
+        padding-bottom: 40px;
+    }
+
+
+    /* ============================ section from our blog =============================== */
+
+    div.wrapper-possition-from-our-blog {
+        padding-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+
+    /* ============================ header =============================== */
+
+
+    div.wrapper-header-logo,
+    div.navbar,
+    div.wrapper-header-icons {
+        display: flex;
+        align-items: unset;
+        height: 100%;
+        margin-right: 15px;
+    }
+
+    nav.navbar {
+        justify-content: flex-end;
+    }
+
+    div.wrapper-header-icons {
+        padding-left: 20px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul.navbar-nav li a{
+        margin-right: 0px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+    .wrapper-header-logo {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /* ============================ section carousel-welcome-pahu =============================== */
+
+    div.carousel-caption-first::before {
+        border-top: 1px solid #ffce76;
+        margin-right: 1vw;
+    }
+
+
+    /* ============================ section our designer =============================== */
+
+    div.image-designer::after {
+        width: 100vw;
+        height: 72vw;
+        top: 45vw;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    /* ============================ header =============================== */
+
+    div.wrapper-header-logo,
+    div.navbar,
+    div.wrapper-header-icons {
+        display: flex;
+        align-items: unset;
+        height: 100%;
+        margin-right: 15px;
+    }
+
+    nav.navbar {
+        justify-content: flex-end;
+    }
+
+    div.wrapper-header-icons {
+        padding-left: 20px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul.navbar-nav li a{
+        margin-right: 0px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    div.wrapper-header-logo,
+    div.wrapper-header-icons {
+        margin-top: 15px;
+    }
+
+    ul.navbar-nav {
+        padding-left: 0px;
+    }
+
+    ul.navbar-nav li a {
+        position: inherit;
+    }
+
+    div.wrapper-header-icons {
+        padding-left: 36px;
+    }
+
+
+    /* ============================ section why choose us =============================== */
+
+    div.wrapper-armchar-why-choose-us img {
+        margin-bottom: 70px;
+    }
+
+
+    /* ============================ section view-deatail =============================== */
+
+    div.wrapper-text-patio {
+        padding-left: 15px;
+    }
+
+    div.wrapper-text-design-by-jarnet-park-trend {
+        padding-top: 51px;
+        padding-left: 15px;
+    }
+
+    div.wrapper-text-ceramics-wm-munoz {
+        padding-left: 15px;
+    }
+
+    div.wrapper-image-apple {
+        justify-content: flex-end;
+    }
+
+
+    /* ============================ section our designer =============================== */
+
+    .wrapper-designer {
+        padding-bottom: 40px;
+    }
+
+
+    /* ============================ section our designer =============================== */
+
+    div.image-designer::after {
+        width: 525px;
+        height: 359px;
+        top: 44%;
+    }
+
+
+    /* ============================ section from our blog =============================== */
+
+
+    div.wrapper-possition-from-our-blog {
+        padding-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+
+
+    /* ============================ footer =============================== */
+
+    div.first-footer {
+        margin-bottom: 40px;
+    }
+
+    div.second-footer {
+        padding-top: 35px;
+    }
+
+    div.wrapper-come-visit-us {
+        padding-top: 20px;
+    }
+
+    div.wrapper-send-a-messenge {
+        padding-top: 20px;
+    }
+
+    div.footer-lines::before {
+        height: 125px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+    /* ============================ header =============================== */
+
+    div.wrapper-header-logo,
+    div.navbar,
+    div.wrapper-header-icons {
+        display: flex;
+        align-items: unset;
+        height: 100%;
+        margin-right: 15px;
+    }
+
+    nav.navbar {
+        justify-content: flex-end;
+    }
+
+    div.wrapper-header-icons {
+        padding-left: 20px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul.navbar-nav li a{
+        margin-right: 0px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    div.wrapper-header-logo,
+    div.wrapper-header-icons {
+        margin-top: 15px;
+    }
+
+    ul.navbar-nav {
+        padding-left: 0px;
+    }
+
+    ul.navbar-nav li a {
+        position: inherit;
+    }
+
+    div.wrapper-header-icons {
+        padding-left: 36px;
+    }
+
+
+    /* ============================ section why choose us =============================== */
+
+    div.wrapper-armchar-why-choose-us img {
+        margin-bottom: 70px;
+    }
+
+
+    /* ============================ section view-deatail =============================== */
+
+    div.wrapper-text-patio {
+        padding-left: 15px;
+    }
+
+    div.wrapper-text-design-by-jarnet-park-trend {
+        padding-top: 51px;
+        padding-left: 15px;
+    }
+
+    div.wrapper-text-ceramics-wm-munoz {
+        padding-left: 15px;
+    }
+
+    div.wrapper-image-apple {
+        justify-content: flex-end;
+    }
+
+
+    /* ============================ section our designer =============================== */
+
+    div.image-designer::after {
+        width: 217px;
+        height: 250px;
+    }
+
+
+    /* ============================ section our designer =============================== */
+
+    div.text-name {
+        font-size: 20px;
+    }
+
+
+    /* ============================ section from our blog =============================== */
+
+
+    div.wrapper-possition-from-our-blog {
+        padding-bottom: 50px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+    /* ============================ header =============================== */
+
+    div.wrapper-header-logo,
+    div.navbar,
+    div.wrapper-header-icons {
+        display: flex;
+        align-items: unset;
+        height: 100%;
+        margin-right: 15px;
+    }
+
+    nav.navbar {
+        justify-content: flex-end;
+    }
+
+    div.wrapper-header-icons {
+        padding-left: 20px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul.navbar-nav li a{
+        margin-right: 0px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    div.wrapper-header-logo,
+    div.wrapper-header-icons {
+        margin-top: 15px;
+    }
+
+    ul.navbar-nav {
+        padding-left: 0px;
+    }
+
+    ul.navbar-nav li a {
+        position: inherit;
+    }
+
+    
+
+
+
+    /* ============================ section why choose us =============================== */
+
+    div.title-text-why-choose-us {
+        line-height: 20px;
+    }
+
+
+    /* ============================ section our designer =============================== */
+
+    div.image-designer::after {
+        width: 299px;
+        height: 315px;
+    }
+
+
+
+    /* ============================ section from our blog =============================== */
+
+    div.text-title-from-our-blog {
+        font-size: 17px;
+    }
+
+
+    /* ============================ footer =============================== */
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+
+    /* ============================ header =============================== */
+
+    div.wrapper-header-icons {
+        padding-left: 0px;
+    }
+
+    
+
+    div.wrapper-header-icons {
+       /*  padding-left: 48px; */
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+
+
+    /* ============================ section carousel =============================== */
+
+    i.fa-angle-right-carousel {
+        margin-left: 20px;
+    }
+
+    i.fa-angle-left-carousel {
+        margin-right: 20px;
+    }
+}
+
+
+@media (max-width: 1700px) {
+
+
+    /* ============================ section carousel welcome pahu =============================== */
+
+    div.wrapper-title-welcom-pahu-carousel {
+        margin-top: 20vw;
+        margin-left: 10vw;
+    }
+
+    div.carousel-caption-first {
+        font-size: 1.5vw;
+        margin-bottom: 2vw;
+    }
+
+
+    div.carousel-caption-first::before {
+        height: 100%;
+        width: 2vw;
+    }
+
+    div.carousel-caption-second h5 {
+        font-size: 4vw;
+    }
+
+
+
+
+    /* ============================ section slider carousel-our-project =============================== */
+
+    div.text-modern-living-room {
+        padding-top: 3vw;
+        padding-left: 3vw;
+    }
+
+    div.title-text-modern-living-room {
+        font-size: 2vw;
+        text-transform: uppercase;
+        height: 5.5vw;
+        letter-spacing: 0.4vw;
+    }
+
+    div.description-text-modern-living-room {
+        font-size: 1.2vw;
+        margin-top: 22vw;
+        margin-left: -1vw;
+        text-transform: uppercase;
+        letter-spacing: 0.4vw;
+    }
+
+}
