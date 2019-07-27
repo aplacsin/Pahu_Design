@@ -1,8 +1,5 @@
 @media (max-width: 368px) {
 
-    
-
-
     /* ============================ section from our blog =============================== */
 
     div.text-title-from-our-blog {
@@ -16,7 +13,6 @@
 
     /* ============================ footer =============================== */
 
-
     div.text-title-first-footer {
         font-size: 23px;
     }
@@ -29,7 +25,30 @@
 
 @media (max-width: 445px) {
 
-    /* =========================== header ===================== */
+    /* ============================ title text =============================== */
+
+    div.title-yellow {
+        font-size: 25px;
+    }
+
+    div.title-black {
+        font-size: 25px;
+    }
+
+
+    /* ============================ section our designer =============================== */
+
+    div.text-name {
+        font-size: 6.7vw;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+
+
+    /* ============================ header =============================== */
+
     div.wrapper-header-logo,
     div.navbar,
     div.wrapper-header-icons {
@@ -60,23 +79,32 @@
     }
 
 
-
-
-    /* ============================ title text =============================== */
-
-    div.title-yellow {
-        font-size: 25px;
-    }
-
-    div.title-black {
-        font-size: 25px;
-    }
-
-
     /* ============================ section carousel-welcome-pahu =============================== */
 
     div.carousel-caption-first::before {
         border-top: 1px solid #ffce76;
+        margin-right: 1vw;
+    }
+
+
+    div.wrapper-title-welcom-pahu-carousel {
+        margin-top: 20vw;
+        margin-left: 10vw;
+    }
+
+    div.carousel-caption-first {
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+
+    div.carousel-caption-first::before {
+        height: 100%;
+        width: 10px;
+    }
+    
+
+    div.carousel-caption-second h5 {
+        font-size: 4vw;
     }
 
 
@@ -143,160 +171,69 @@
 
     /* ============================ section our designer =============================== */
 
-    .wrapper-designer {
-        padding-bottom: 40px;
-    }
-
-    div.text-name {
-        font-size: 6.7vw;
-    }
-
-
-    /* ============================ section from our blog =============================== */
-
-    div.wrapper-possition-from-our-blog {
-        padding-bottom: 50px;
-    }
-}
-
-
-@media (min-width: 436px) and (max-width: 575px) {
-
-    /* ========================== header ======================== */
-
-
-    div.wrapper-header-logo,
-    div.navbar,
-    div.wrapper-header-icons {
-        display: flex;
-        align-items: unset;
-        height: 100%;
-    }
-
-    div.wrapper-header-logo,
-    div.wrapper-header-icons {
-        margin-top: 15px;
-    }
-
-    div.wrapper-header-logo {
-        margin-bottom: 20px;
-    }
-
-    ul.navbar-nav {
-        padding-left: 0px;
-    }
-
-    ul.navbar-nav li a {
-        position: inherit;
-    }
-
-    div.wrapper-header-icons {
-        padding-left: 0px;
-    }
-
-
-    /* ============================ section why choose us =============================== */
-
-    div.wrapper-armchar-why-choose-us img {
-        margin-bottom: 70px;
-    }
-
-    .wrapper-text-why-choose-us-left {
-        padding-right: 25px;
-    }
-
-    div.title-text-why-choose-us {
-        line-height: 20px;
-    }
-
-
-    /* ============================ section view-deatail =============================== */
-
-    div.wrapper-text-patio {
-        padding-left: 15px;
-    }
-
-    div.wrapper-text-design-by-jarnet-park-trend {
-        padding-top: 51px;
-        padding-left: 15px;
-    }
-
-    div.wrapper-text-ceramics-wm-munoz {
-        padding-left: 15px;
-    }
-
-    div.wrapper-image-apple {
-        justify-content: flex-end;
-    }
-
-
-    /* ============================ section our designer =============================== */
-
-    .wrapper-designer {
-        padding-bottom: 40px;
-    }
-
-
-    /* ============================ section from our blog =============================== */
-
-    div.wrapper-possition-from-our-blog {
-        padding-bottom: 50px;
-    }
-}
-
-
-@media (max-width: 575.98px) {
-
-    /* ============================ header =============================== */
-
-
-    div.wrapper-header-logo,
-    div.navbar,
-    div.wrapper-header-icons {
-        display: flex;
-        align-items: unset;
-        height: 100%;
-        margin-right: 15px;
-    }
-
-    nav.navbar {
-        justify-content: flex-end;
-    }
-
-    div.wrapper-header-icons {
-        padding-left: 20px;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    ul.navbar-nav li a{
-        margin-right: 0px;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-
-    .wrapper-header-logo {
-        display: flex;
-        justify-content: center;
-    }
-
-
-    /* ============================ section carousel-welcome-pahu =============================== */
-
-    div.carousel-caption-first::before {
-        border-top: 1px solid #ffce76;
-        margin-right: 1vw;
-    }
-
-
-    /* ============================ section our designer =============================== */
-
     div.image-designer::after {
         width: 100vw;
         height: 72vw;
         top: 45vw;
     }
+
+    .wrapper-designer {
+        padding-bottom: 40px;
+    }
+
+
+    /* ============================ section from our blog =============================== */
+
+    div.wrapper-possition-from-our-blog {
+        padding-bottom: 50px;
+    }
+
+
+    /* ============================ footer =============================== */
+
+    div.first-footer {
+        margin-bottom: 40px;
+    }
+
+    div.second-footer {
+        padding-top: 35px;
+    }
+
+    div.wrapper-come-visit-us {
+        padding-top: 20px;
+    }
+
+    div.wrapper-send-a-messenge {
+        padding-top: 20px;
+    }
+
+    div.footer-lines::before {
+        height: 125px;
+    }
+
+
+    /* ============================ section slider carousel-our-project =============================== */
+
+    div.text-modern-living-room {
+        padding-top: 3vw;
+        padding-left: 3vw;
+    }
+
+    div.title-text-modern-living-room {
+        font-size: 2vw;
+        text-transform: uppercase;
+        height: 5.5vw;
+        letter-spacing: 0.4vw;
+    }
+
+    div.description-text-modern-living-room {
+        font-size: 6px;
+        margin-top: 22vw;
+        margin-left: -1vw;
+        text-transform: uppercase;
+        letter-spacing: 0.4vw;
+    }
+
 }
 
 
@@ -324,7 +261,7 @@
         justify-content: flex-end;
     }
 
-    ul.navbar-nav li a{
+    ul.navbar-nav li a {
         margin-right: 0px;
         display: flex;
         justify-content: flex-end;
@@ -397,10 +334,6 @@
     div.wrapper-possition-from-our-blog {
         padding-bottom: 50px;
     }
-}
-
-
-@media (max-width: 991.98px) {
 
 
     /* ============================ footer =============================== */
@@ -424,9 +357,7 @@
     div.footer-lines::before {
         height: 125px;
     }
-
 }
-
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 
@@ -452,7 +383,7 @@
         justify-content: flex-end;
     }
 
-    ul.navbar-nav li a{
+    ul.navbar-nav li a {
         margin-right: 0px;
         display: flex;
         justify-content: flex-end;
@@ -520,9 +451,31 @@
 
     /* ============================ section from our blog =============================== */
 
-
     div.wrapper-possition-from-our-blog {
         padding-bottom: 50px;
+    }
+
+
+    /* ============================ footer =============================== */
+
+    div.first-footer {
+        margin-bottom: 40px;
+    }
+
+    div.second-footer {
+        padding-top: 35px;
+    }
+
+    div.wrapper-come-visit-us {
+        padding-top: 20px;
+    }
+
+    div.wrapper-send-a-messenge {
+        padding-top: 20px;
+    }
+
+    div.footer-lines::before {
+        height: 125px;
     }
 }
 
@@ -551,7 +504,7 @@
         justify-content: flex-end;
     }
 
-    ul.navbar-nav li a{
+    ul.navbar-nav li a {
         margin-right: 0px;
         display: flex;
         justify-content: flex-end;
@@ -570,9 +523,6 @@
         position: inherit;
     }
 
-    
-
-
 
     /* ============================ section why choose us =============================== */
 
@@ -589,7 +539,6 @@
     }
 
 
-
     /* ============================ section from our blog =============================== */
 
     div.text-title-from-our-blog {
@@ -598,23 +547,6 @@
 
 
     /* ============================ footer =============================== */
-
-}
-
-
-@media (min-width: 1200px) and (max-width: 1300px) {
-
-    /* ============================ header =============================== */
-
-    div.wrapper-header-icons {
-        padding-left: 0px;
-    }
-
-    
-
-    div.wrapper-header-icons {
-       /*  padding-left: 48px; */
-    }
 
 }
 
@@ -634,7 +566,7 @@
 }
 
 
-@media (max-width: 1700px) {
+@media (min-width: 575.98px) and (max-width: 1700px) {
 
 
     /* ============================ section carousel welcome pahu =============================== */
@@ -658,8 +590,6 @@
     div.carousel-caption-second h5 {
         font-size: 4vw;
     }
-
-
 
 
     /* ============================ section slider carousel-our-project =============================== */
