@@ -116,8 +116,7 @@ button.navbar-toggler {
 
 .navbar-nav li a:hover::before {
     content: '';
-    left: -1px;
-    bottom: -46px;
+    top: 64px;
     width: 100%;
     height: 3px;
     background-color: #ffce76;
