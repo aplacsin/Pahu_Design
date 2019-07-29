@@ -51,8 +51,12 @@
 
     div.wrapper-header-logo,
     div.navbar,
-    div.wrapper-header-icons {        
-        align-items: unset;       
+    div.wrapper-header-icons {
+        align-items: unset;
+    }
+
+    div.wrapper-header-logo {
+        display: inherit !important;
     }
 
     div.wrapper-header-logo,
@@ -79,6 +83,7 @@
     div.wrapper-header-icons {
         padding-left: 0px;
     }
+
 
 
     /* ============================ section carousel-welcome-pahu =============================== */
@@ -112,15 +117,15 @@
     i.fa-angle-right-carousel {
         width: 20px;
         height: 20px;
-        font-size: 13px;   
-        margin-left: 0px!important;       
+        font-size: 13px;
+        margin-left: 0px !important;
     }
 
     i.fa-angle-left-carousel {
         width: 20px;
         height: 20px;
         font-size: 13px;
-        margin-right: 0px!important;    
+        margin-right: 0px !important;
     }
 
 
@@ -245,9 +250,9 @@
 
     div.description-text-modern-living-room {
         font-size: 7px;
-        margin-top: 100%;               
+        margin-top: 100%;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
 
 }
@@ -260,9 +265,13 @@
 
     div.wrapper-header-logo,
     div.navbar,
-    div.wrapper-header-icons {        
-        align-items: unset;       
+    div.wrapper-header-icons {
+        align-items: unset;
         margin-right: 15px;
+    }
+
+    div.wrapper-header-logo {
+        display: inherit !important;
     }
 
     nav.navbar {
@@ -270,7 +279,7 @@
     }
 
     div.wrapper-header-icons {
-        padding-left: 20px;       
+        padding-left: 20px;
         justify-content: flex-end;
     }
 
@@ -295,6 +304,7 @@
 
     ul.navbar-nav li a {
         position: inherit;
+        margin-right: 0px !important;
     }
 
     div.wrapper-header-icons {
@@ -329,13 +339,13 @@
     i.fa-angle-right-carousel {
         width: 40px;
         height: 40px;
-        font-size: 25px;        
+        font-size: 25px;
     }
 
     i.fa-angle-left-carousel {
         width: 40px;
         height: 40px;
-        font-size: 25px;       
+        font-size: 25px;
     }
 
 
@@ -407,7 +417,7 @@
 
     div.description-text-modern-living-room {
         font-size: 10px;
-        margin-top: 110%;               
+        margin-top: 110%;
         text-transform: uppercase;
         letter-spacing: 4px;
     }
@@ -443,9 +453,13 @@
 
     div.wrapper-header-logo,
     div.navbar,
-    div.wrapper-header-icons {        
-        align-items: unset;       
+    div.wrapper-header-icons {
+        align-items: unset;
         margin-right: 15px;
+    }
+
+    div.wrapper-header-logo {
+        display: inherit !important;
     }
 
     nav.navbar {
@@ -453,7 +467,7 @@
     }
 
     div.wrapper-header-icons {
-        padding-left: 20px;        
+        padding-left: 20px;
         justify-content: flex-end;
     }
 
@@ -462,6 +476,7 @@
         display: flex;
         justify-content: flex-end;
     }
+
 
     .navbar-nav li a:hover::before {
         display: none;
@@ -478,6 +493,7 @@
 
     ul.navbar-nav li a {
         position: inherit;
+        margin-right: 0px !important;
     }
 
     div.wrapper-header-icons {
@@ -512,13 +528,13 @@
     i.fa-angle-right-carousel {
         width: 40px;
         height: 40px;
-        font-size: 25px;       
+        font-size: 25px;
     }
 
     i.fa-angle-left-carousel {
         width: 40px;
         height: 40px;
-        font-size: 25px;        
+        font-size: 25px;
     }
 
 
@@ -584,7 +600,7 @@
 
     div.description-text-modern-living-room {
         font-size: 15px;
-        margin-top: 120%;               
+        margin-top: 120%;
         text-transform: uppercase;
         letter-spacing: 5px;
     }
@@ -621,17 +637,22 @@
 
     div.wrapper-header-logo,
     div.navbar,
-    div.wrapper-header-icons {        
-        align-items: unset;        
+    div.wrapper-header-icons {
+        align-items: unset;
         margin-right: 15px;
     }
+
+    div.wrapper-header-logo {
+        display: inherit !important;
+    }
+
 
     nav.navbar {
         justify-content: flex-end;
     }
 
     div.wrapper-header-icons {
-        padding-left: 20px;       
+        padding-left: 20px;
         justify-content: flex-end;
     }
 
@@ -656,6 +677,7 @@
 
     ul.navbar-nav li a {
         position: inherit;
+        margin-right: 0px !important;
     }
 
 
@@ -734,7 +756,7 @@
 
     div.description-text-modern-living-room {
         font-size: 20px;
-        margin-top: 120%;               
+        margin-top: 120%;
         text-transform: uppercase;
         letter-spacing: 7px;
     }
@@ -760,8 +782,15 @@
 
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-    
-    
+
+
+    /* ============================ header =============================== */
+
+    div.wrapper-header-icons {
+        padding-left: 55px;
+    }
+
+
     /* ============================ section slider carousel-our-project =============================== */
 
     div.text-modern-living-room {
@@ -778,9 +807,11 @@
 
     div.description-text-modern-living-room {
         font-size: 20px;
-        margin-top: 120%;               
+        margin-top: 120%;
         text-transform: uppercase;
         letter-spacing: 10px;
     }
+
+
 
 }

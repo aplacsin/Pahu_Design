@@ -44,7 +44,7 @@ button.navbar-toggler {
 
 .i-linecons-heart {
     color: #ffffff;
-    font-size: 21px;
+    font-size: 22px;
     transition: 0.5s;
 }
 
@@ -104,9 +104,12 @@ button.navbar-toggler {
 .navbar-nav li a {
     font-size: 14px;
     text-transform: uppercase;
-    margin-right: 55px;
     color: #fefefe;
     position: relative;
+}
+
+.navbar-nav li:not(:last-child) a {
+    margin-right: 55px;
 }
 
 .navbar-nav li a:hover {
@@ -131,9 +134,12 @@ button.navbar-toggler {
 
 .wrapper-header-logo,
 .navbar,
-.wrapper-header-icons {    
-    align-items: center;
+.wrapper-header-icons {
     height: 100%;
+}
+
+.wrapper-header-icons {
+    padding-left: 80px;
 }
 
 
@@ -144,7 +150,7 @@ button.navbar-toggler {
 }
 
 .carousel-welcome-pahu .carousel-caption {
-    text-align: start;
+    text-align: left;
     transform: translateY(50%) rotate(0deg);
     float: left;
     left: 0;
@@ -173,7 +179,7 @@ button.navbar-toggler {
 
 .carousel-caption-first::before {
     content: "";
-    display: inline-block;    
+    display: inline-block;
     vertical-align: middle;
     height: 100%;
     width: 63px;
@@ -244,17 +250,17 @@ button.navbar-toggler {
     background-color: #181817;
 }
 
-.title-lines-yellow-why-choose-us {    
+.title-lines-yellow-why-choose-us {
     margin-bottom: 121px;
     font-weight: 600;
 }
 
 .wrapper-text-why-choose-us-left {
-    text-align: right;    
+    text-align: right;
 }
 
 .wrapper-text-why-choose-us-right {
-    text-align: left;    
+    text-align: left;
 }
 
 .title-text-why-choose-us {
@@ -278,7 +284,7 @@ button.navbar-toggler {
 
 .first-wrapper-text-why-choose-us-unique {
     margin-bottom: 70px;
-    margin-right: 17px;
+    margin-right: 20px;
 }
 
 .second-wrapper-text-why-choose-us {
@@ -299,13 +305,13 @@ button.navbar-toggler {
 }
 
 .wrapper-patio-furniture-vietnam {
-    height: 340px;    
+    height: 340px;
     background: #e7e7e7;
 }
 
 .wrapper-patio-furniture-vietnam-second {
     background: #e7e7e7;
-    height: 330px;    
+    height: 330px;
 }
 
 .wrapper-text-patio {
@@ -373,7 +379,7 @@ button.navbar-toggler {
     width: 100%;
 }
 
-.wrapper-ceramics-wm-munoz {    
+.wrapper-ceramics-wm-munoz {
     background: #f1f1f1;
     height: 330px;
 }
@@ -436,7 +442,7 @@ button.navbar-toggler {
 
 .wrapper-image-collection {
     margin-bottom: 26px;
-    height: 227px;    
+    height: 227px;
     text-align: center;
 }
 
@@ -531,9 +537,9 @@ button.navbar-toggler {
 }
 
 .wrapper-bar {
-    position: absolute;    
+    position: absolute;
     width: 100%;
-    height: 100%;    
+    height: 100%;
 }
 
 .bar-collection {
@@ -542,7 +548,7 @@ button.navbar-toggler {
     border-radius: 20px;
     background-color: #555859;
     opacity: 0;
-    transition: 0.3s;    
+    transition: 0.3s;
 }
 
 .bar-collection::before {
@@ -611,7 +617,7 @@ button.navbar-toggler {
     letter-spacing: 5px;
 }
 
-.title-lines-yellow {    
+.title-lines-yellow {
     margin-bottom: 131px;
 }
 
@@ -703,7 +709,7 @@ button.navbar-toggler {
 
 }
 
-.title-lines-black-project {    
+.title-lines-black-project {
     margin-bottom: 105px;
 }
 
@@ -718,14 +724,14 @@ button.navbar-toggler {
 }
 
 .wrapper-text-modern-living-room {
-    position: absolute;    
+    position: absolute;
     width: 100%;
     height: 50%;
     z-index: 1;
 }
 
 .description-text-modern-living-room {
-    writing-mode: vertical-rl;
+    writing-mode: tb-rl;
     height: 100%;
     transform: rotate(180deg);
     color: #ffffff;
@@ -768,7 +774,7 @@ button.navbar-toggler {
     letter-spacing: 5px;
 }
 
-.title-lines-black {    
+.title-lines-black {
     margin-bottom: 74px;
 }
 
@@ -844,7 +850,7 @@ button.navbar-toggler {
     margin-left: 25px;
     background-color: #ffce76;
     height: 50px;
-    width: 160px;    
+    width: 160px;
     transition: 0.4s;
     cursor: pointer;
 }
@@ -926,7 +932,7 @@ button.navbar-toggler {
     height: 100%;
     width: 42px;
     border: 1px solid #525251;
-    border-radius: 50%;    
+    border-radius: 50%;
     font-size: 25px;
     transition: 0.4s;
 }
@@ -943,7 +949,7 @@ button.navbar-toggler {
     width: 42px;
     height: 42px;
     border: 1px solid #525251;
-    border-radius: 50%;    
+    border-radius: 50%;
     font-size: 25px;
     transition: 0.4s;
 }
@@ -1009,7 +1015,7 @@ button.navbar-toggler {
     background-color: transparent;
     border: 1px solid #5e5e5d;
     outline: none;
-    color: #5e5e5d;
+    color: #8c8c8b;
     padding: 0 15px;
     font-size: 14px;
     padding-right: 56px;
